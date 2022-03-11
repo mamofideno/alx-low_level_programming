@@ -1,1 +1,0 @@
-This file is condition statement
