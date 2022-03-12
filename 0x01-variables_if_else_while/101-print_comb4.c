@@ -20,12 +20,13 @@ for (l = ch+1; l <= '9'; l++)
 for (s = l+1; s <= '9'; s++)
 {
 putchar(ch);
+putchar(l); 
 putchar(s);
+}
 if (ch != '9')
 {
 putchar(',');
 putchar(' ');
-}
 } 
 }
 }
