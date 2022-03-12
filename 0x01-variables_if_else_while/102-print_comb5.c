@@ -18,7 +18,7 @@ for (s = ch + 1; s <= '9'; s++)
 {
 putchar(ch);
 putchar(s);
-if(s!=='9')
+if(s != '9')
 putchar(' ');
 else { 
 if (!(ch == '8' && s == '9'))
