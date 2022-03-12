@@ -14,11 +14,11 @@ int ch;
 int s;
 for (ch = '0'; ch <= '9'; ch++)
 {
+for (s = ch + 1; s <= '9'; s++)
+{
 putchar(ch);
 putchar(ch);
 putchar(' ');
-for (s = ch + 1; s <= '9'; s++)
-{
 putchar(ch);
 putchar(s);
 if (!(ch == '8' && s == '9'))
