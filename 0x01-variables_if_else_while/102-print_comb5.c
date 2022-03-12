@@ -14,7 +14,7 @@ int ch;
 int s;
 for (ch = '0'; ch <= '9'; ch++)
 {
-for (s = ch + 1; s <= '9'; s++)
+for (s = '1'; s <= '9'; s++)
 {
 putchar(ch);
 putchar(ch);
