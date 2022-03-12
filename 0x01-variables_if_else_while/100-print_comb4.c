@@ -12,12 +12,9 @@ int main(void)
 {
 int ch;
 int s;
- int l; 
 for (ch = '0'; ch <= '9'; ch++)
 {
-for (l = ch+1; l <= '9'; l++)
-{
-for (s = l+1; s <= '9'; s++)
+for (s = ch+1; s <= '9'; s++)
 {
 putchar(ch);
 putchar(s);
@@ -27,7 +24,6 @@ putchar(',');
 putchar(' ');
 }
 } 
-}
 }
 putchar('\n');
 return (0);
