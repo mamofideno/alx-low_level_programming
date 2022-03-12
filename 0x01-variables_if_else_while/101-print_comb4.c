@@ -20,16 +20,16 @@ for (l = ch+1; l <= '9'; l++)
 for (s = l+1; s <= '9'; s++)
 {
 putchar(ch);
-putchar(l); 
+putchar(l);
 putchar(s);
- if (!(ch == '7' && l == '8' && s == '9'))
+if (!(ch == '7' && l == '8' && s == '9'))
 {
 putchar(',');
 putchar(' ');
-} 
 }
 }
-} 
+}
+}
 putchar('\n');
 return (0);
 }

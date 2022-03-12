@@ -18,12 +18,12 @@ for (s = ch+1; s <= '9'; s++)
 {
 putchar(ch);
 putchar(s);
-} 
-if (ch != '9')
+if (!(ch == '8' && s == '9'))
 {
 putchar(',');
 putchar(' ');
 } 
+}
 }
 putchar('\n');
 return (0);
