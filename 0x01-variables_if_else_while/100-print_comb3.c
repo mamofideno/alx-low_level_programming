@@ -22,7 +22,7 @@ if (!(ch == '8' && s == '9'))
 {
 putchar(',');
 putchar(' ');
-} 
+}
 }
 }
 putchar('\n');
