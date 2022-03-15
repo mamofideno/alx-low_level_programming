@@ -1,8 +1,5 @@
-#include <stdlib.h>
-#include <time.h>
 /* more headers goes there */
-#include <stdio.h>
-#include "1-main.h"
+#include "main.h"
 /* betty style doc for function main goes there */
 /**
  * main - entry point
@@ -13,11 +10,7 @@ void print_alphabet(void)
 {
 int ch;
 for (ch = 'a'; ch <= 'z'; ch++)
-putchar(ch);
-putchar('\n');
-} 
-int main(void)
-{
-print_alphabet();
-return (0);
+_putchar(ch);
+_putchar('\n');
+return ;
 }
