@@ -1,7 +1,5 @@
-#include <stdlib.h>
-#include <Main.h>
+#include "main.h"
 /* more headers goes there */
-#include <stdio.h>
 /* betty style doc for function main goes there */
 /**
  * main - entry point
@@ -10,6 +8,13 @@
  */
 int main(void)
 {
-printf("%s","\_putchar");
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
 return (0);
 }
