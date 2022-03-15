@@ -4,7 +4,7 @@
 /**
  * _islower - checklower alphabet alphabet
  *
- * c - chacter to be checkced 
+ * @c: - chacter to be checkced
  *
  * Return:Always void
  */
