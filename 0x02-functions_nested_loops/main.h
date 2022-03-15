@@ -21,5 +21,5 @@ void print_alphabet_x10(void);
 #endif
 #ifndef __ISLOWER_H_
 #define __ISLOWER_H_
-int islower(int);
+int _islower(int);
 #endif
