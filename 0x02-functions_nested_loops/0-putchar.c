@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include <time.h>
+#include <Main.h>
 /* more headers goes there */
 #include <stdio.h>
 /* betty style doc for function main goes there */
@@ -10,6 +10,6 @@
  */
 int main(void)
 {
-  printf("%s","\_putchar");
+printf("%s","\_putchar");
 return (0);
 }
