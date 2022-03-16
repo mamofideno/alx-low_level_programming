@@ -12,10 +12,19 @@ int print_sign(int c)
 {
 int r;
 if (c < 0)
-r ="-1";
+{
+_putchar('-');
+r =-1;
+}
 else if (c == 0)
-r = "00";
+{
+_putchar('0');
+r = 0;
+}
 else
-r = "+1";
+{
+_putchar('+');
+r = 1;
+}
 return (r);
 }
