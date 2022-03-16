@@ -40,3 +40,7 @@ int _abs(int);
 #define _PRINT_LAST_DIGIT_H_
 int print_last_digit(int);
 #endif
+#ifndef _ADD_H_
+#define _ADD_H_
+int add(int , int);
+#endif
