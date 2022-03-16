@@ -7,7 +7,7 @@
  * @c: - chacter to be checkced
  *
  *@d: - second args
- * 
+ *
  *Return:Always void
  */
 int add(int c, int d)
