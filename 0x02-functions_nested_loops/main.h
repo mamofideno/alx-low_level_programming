@@ -36,3 +36,7 @@ int print_sign(int);
 #define _ABS_H_
 int _abs(int);
 #endif
+#ifndef _PRINT_LAST_DIGIT_H_
+#define _PRINT_LAST_DIGIT_H_
+int print_last_digit(int);
+#endif
