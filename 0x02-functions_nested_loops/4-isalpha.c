@@ -11,7 +11,7 @@
 int _isalpha(int c)
 {
 int r;
-if (( c >= 'A') && (( c <= 'z' ))
+if (( c >= 'A') && ( c <= 'z' ))
 r = 1;
 else
 r = 0;
