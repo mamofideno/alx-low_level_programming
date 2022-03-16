@@ -14,7 +14,7 @@ int r;
 if (c < 0)
 {
 _putchar('-');
-r = - 1;
+r = -1;
 }
 else if (c == 0)
 {
