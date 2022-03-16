@@ -12,7 +12,7 @@ int _abs(int c)
 {
 int r;
 if (c < 0)
-r = c* -1;
+r = c * -1;
 else if (c == 0)
 r = 0;
 else
