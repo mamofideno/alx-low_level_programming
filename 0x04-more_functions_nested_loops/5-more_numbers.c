@@ -2,18 +2,21 @@
 #include "main.h"
 /* betty style doc for function main goes there */
 /**
- * print_most_numbers - entry point
+ * more_numbers - entry point
  *
  * Return:Always 0(Success)
  */
-void print__most_numbers(void)
+void more_numbers(void)
 {
+int h;
+for (h = 0; h < 10; h++)
+{   
 int ch;
 for (ch = 0; ch <= 9; ch++)
 {
-if(ch !=2 && ch != 4)
 _putchar(ch);
 }
 _putchar('\n');
+}
 return;
 }
