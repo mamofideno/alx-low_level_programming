@@ -2,13 +2,13 @@
 #include "main.h"
 /* betty style doc for function main goes there */
 /**
- * _islower - checklower alphabet alphabet
+ * _isupper - checklower alphabet alphabet
  *
  * @c: - chacter to be checkced
  *
  * Return:Always void
  */
-int _islower(int c)
+int _isupper(int c)
 {
 int r;
 if (c >= 'A' && c <= 'Z')
