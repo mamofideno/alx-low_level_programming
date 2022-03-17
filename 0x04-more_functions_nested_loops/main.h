@@ -48,3 +48,7 @@ int add(int , int);
 #define __ISUPPER_H_
 int _isupper(int);
 #endif
+#ifndef __ISDIGIT_H_
+#define __ISDIGIT_H_
+int _isdigit(int);
+#endif
