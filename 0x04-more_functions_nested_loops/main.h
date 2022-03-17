@@ -52,3 +52,7 @@ int _isupper(int);
 #define __ISDIGIT_H_
 int _isdigit(int);
 #endif
+#ifndef _MUL_H_
+#define _MUL_H
+int mul(int , int);
+#endif
