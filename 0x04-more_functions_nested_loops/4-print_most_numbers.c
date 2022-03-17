@@ -6,7 +6,7 @@
  *
  * Return:Always 0(Success)
  */
-void print__most_numbers(void)
+void print_most_numbers(void)
 {
 int ch;
 for (ch = 0; ch <= 9; ch++)
