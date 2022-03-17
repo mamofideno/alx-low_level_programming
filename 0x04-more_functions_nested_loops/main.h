@@ -10,7 +10,6 @@ void _putchar(int x);  /* An example function declaration */
 
 void print_alphabet(void);
 
-
 #endif
 
 #ifndef _PRINT_ALPHABET_x10_H_
@@ -55,4 +54,12 @@ int _isdigit(int);
 #ifndef _MUL_H_
 #define _MUL_H
 int mul(int , int);
+#endif
+#ifndef _PRINT_NUMBERS_H_
+#define _PRINT_NUMBERS_H_
+void print_numbers(void);
+#endif
+#ifndef _PRINT_MOST_NUMBERS_H_
+#define _PRINT_MOST_NUMBERS_H_
+void print_most_numbers(void);
 #endif
