@@ -4,7 +4,7 @@
 /**
  * mul - multiply number
  *
- * @c: -digit to be checkced
+ *@c: -digit to be checkced
  *
  *@d: is the second number
  *
