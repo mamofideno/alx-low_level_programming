@@ -76,6 +76,6 @@ void print_line(int);
 void print_diagonal(int);
 #endif
 #ifndef _PRINT_SQUARE_H_
-#define _PRINT_SQUARE_H_H
+#define _PRINT_SQUARE_H_
 void print_square(int)
 #endif
