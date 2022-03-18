@@ -7,7 +7,7 @@
  * Return:Always 0(Success)
  */
 int main(void)
-{  
+{
 int ch;
 for (ch = 1; ch <= 30; ch++)
 {
@@ -27,6 +27,6 @@ else
 {
 printf("%i ",ch);
 }
-}    
+}
 return 0;
 }
