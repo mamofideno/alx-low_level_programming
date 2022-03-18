@@ -16,10 +16,14 @@ int j;
 for(outer = 1; outer <= n; outer++)
 {
 for(j = n; j >= outer; j--)
+{
 _putchar(' ');
+}
 for(k = 1 ; k <= outer; k++)
+{
 _putchar('#');
+}
 _putchar'\n');
 }
-return 0;
+return;
 }
