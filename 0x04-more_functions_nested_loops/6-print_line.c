@@ -4,13 +4,13 @@
 /**
  * print_line - entry point
  *
+ *@h: input
+ *
  * Return:Always 0(Success)
  */
-void print_line(int hh)
+void print_line(int h)
 {
-int h;  
 int ch;
-h=hh; 
 for (ch = 1; ch <= h; ch++)
 {
 _putchar('_');
