@@ -1,5 +1,5 @@
 /* more headers goes there */
-#include <stdio.h>
+#include "main.h"
 /* betty style doc for function main goes there */
 /**
  * print_triangle- entry point
@@ -16,10 +16,10 @@ int j;
 for(outer = 1; outer <= n; outer++)
 {
 for(j = n; j >= outer; j--)
-printf(" ");
+_putchar(" ");
 for(k = 1 ; k <= outer; k++)
-printf("#");
-printf("\n");
+_putchar("#");
+_putchar("\n");
 }
 return 0;
 }
