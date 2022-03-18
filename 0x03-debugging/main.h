@@ -83,3 +83,7 @@ void print_square(int);
 #define _PRINT_TRIANGLE_H_
 void print_triangle(int);
 #endif
+#ifndef _LARGEST_NUMBER_H_
+#define _LARGEST_NUMBER_H_
+int largest_number(int , int , int);
+#endif
