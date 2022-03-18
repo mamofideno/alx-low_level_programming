@@ -87,3 +87,7 @@ void print_triangle(int);
 #define _LARGEST_NUMBER_H_
 int largest_number(int , int , int);
 #endif
+#ifndef _PRINT_REMAINING_DAYS_H
+#define _PRINT_REMAINING_DAYS_H
+void print_remaining_days(int , int , int);
+#endif
