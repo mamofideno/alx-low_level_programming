@@ -80,6 +80,6 @@ void print_diagonal(int);
 void print_square(int);
 #endif
 #ifndef _PRINT_TRIANGLE_H_
-#define _PRINT_TRAINGLE_H_
+#define _PRINT_TRIANGLE_H_
 void print_triangle(int);
 #endif
