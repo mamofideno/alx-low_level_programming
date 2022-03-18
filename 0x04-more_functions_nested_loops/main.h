@@ -67,3 +67,15 @@ void print_most_numbers(void);
 #define _MORE_NUMBERS_H_
 void more_numbers(void);
 #endif
+#ifndef _PRINT_LINE_H_
+#define _PRINT_LINE_H_
+void print_line(int);
+#endif
+#ifndef _PRINT_DIAGONAL_H_
+#define _PRINT_DIAGONAL_H_
+void print_diagonal(int);
+#endif
+#ifndef _PRINT_SQUARE_H_
+#define _PRINT_SQUARE_H_H
+void print_square(int)
+#endif
