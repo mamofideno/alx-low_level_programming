@@ -10,7 +10,7 @@
  *
  * Return:Always void
  */
-int mul(int c , int d)
+int mul(int c, int d)
 {
 return (c * d);
 }
