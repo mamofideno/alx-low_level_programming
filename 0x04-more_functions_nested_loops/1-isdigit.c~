@@ -2,16 +2,16 @@
 #include "main.h"
 /* betty style doc for function main goes there */
 /**
- * _isdigit - digit checker
+ * _isupper - checklower alphabet alphabet
  *
- * @c: -digit to be checkced
+ * @c: - chacter to be checkced
  *
  * Return:Always void
  */
-int _isdigit(int c)
+int _isupper(int c)
 {
 int r;
-if (c >= '0' && c <= '9')
+if (c >= 'A' && c <= 'Z')
 r = 1;
 else
 r = 0;
