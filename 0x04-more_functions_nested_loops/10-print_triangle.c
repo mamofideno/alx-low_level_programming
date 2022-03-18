@@ -19,7 +19,7 @@ for(j = n; j >= outer; j--)
 _putchar(' ');
 for(k = 1 ; k <= outer; k++)
 _putchar('#');
-_putchar'\n'");
+_putchar'\n');
 }
 return 0;
 }
