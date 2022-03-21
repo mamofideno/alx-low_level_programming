@@ -2,7 +2,7 @@
 /**
  * reset_to_98 - resent the given addres value to 98
  *
- *@*n is varibale for the address
+ *@n: is varibale for the address
  *
  *Return: the value return void
  */
