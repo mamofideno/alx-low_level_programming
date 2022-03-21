@@ -1,0 +1,1 @@
+this module is about pointer string and arrays
