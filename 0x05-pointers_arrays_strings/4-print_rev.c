@@ -25,4 +25,5 @@ s[i]=str;
 j=j+1;
 }
 printf("%s\n", s);
+ return;
 }
