@@ -12,7 +12,7 @@
  */
 void print_array(int *a, int n)
 {
-if (((int)(sizeof(a) / sizeof(a[0])) == n))
+if (n > 0)
 {
 int i;
 for (i = 0; i < n - 1; i++)
