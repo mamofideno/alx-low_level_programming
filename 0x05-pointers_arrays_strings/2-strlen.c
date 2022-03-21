@@ -5,7 +5,7 @@
  *
  *@s: string pointer
  *
- *Return: int 
+ *Return: int
  */
 int _strlen(char *s)
 {
