@@ -19,10 +19,10 @@ size = strlen(s);
 j = 0;
 for (i = size - 1; i >= j; i--)
 {
-str=*s[j];
-s[j]=*s[i];
-*s[i]=str; 
-j=j+1;
+str=s[j];
+s[j]=s[i];
+s[i]=str; 
+j++;
 }
 printf("%s\n", s);
 return;
