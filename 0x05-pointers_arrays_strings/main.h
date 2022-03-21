@@ -22,3 +22,7 @@ void _puts(char *str);
 #define _PRINT_REV_H_
 void print_rev(char *s);
 #endif
+#ifndef __STRCPY_H_
+#define __STRCPY_H_
+char *_strcpy(char *dest, char *src);
+#endif
