@@ -11,5 +11,16 @@
  */
 void print_rev(char *s)
 {
-  printf("%s\n", (char *)strrev(s));
+int size;
+int i;
+int j;
+char str[strlen(s)];
+size=strlen(s);
+j=0;
+for (i = size - 1; i >= 0; i--)
+{
+str[j]=s[i];
+j=j+1;
+}
+printf("%s\n", str);
 }
