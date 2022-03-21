@@ -1,7 +1,6 @@
 #include "main.h"
-/*
- *
- *reset_to_98 - resent the given addres value to 98
+/**
+ * reset_to_98 - resent the given addres value to 98
  *
  *@*n is varibale for the address
  *
@@ -9,5 +8,5 @@
  */
 void reset_to_98(int *n)
 {
-*n = 98;  
+*n = 98;
 }
