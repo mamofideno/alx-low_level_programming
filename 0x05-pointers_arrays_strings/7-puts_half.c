@@ -3,13 +3,13 @@
 #include "main.h"
 
 /**
- *puts2 - print the strings
+ *puts_half - print the strings
  *
  *@s: char to be printed
  *
  *Return: return void
  */
-void puts2(char *s)
+void puts_half(char *s)
 {
 int size;
 int i;
