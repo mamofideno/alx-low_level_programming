@@ -16,6 +16,7 @@ int i;
 char *str;
 str =NULL;
 size = (int) strlen(s)/2;
+printf("%i",size);
 for (i = 0; i<= size; i++)
 {
 str[i]=s[i];
