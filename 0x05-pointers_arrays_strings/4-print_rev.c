@@ -24,5 +24,5 @@ s[j]=s[i];
 s[i]=str; 
 j=j+1;
 }
-printf("%s\n", str);
+printf("%s\n", s);
 }
