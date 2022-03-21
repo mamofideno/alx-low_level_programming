@@ -17,14 +17,14 @@ int i;
 char *str;
 str = NULL;
 size = strlen(s);
-l = (size / 2);
+l = (size -1)/ 2;
 if( l > 0)
 {
 for (i = 0; i <= l; i++)
 {
 str[i]=s[i];
 }
-printf("%s\n", str);
 }
+printf("%s\n", str);
 return;
 }
