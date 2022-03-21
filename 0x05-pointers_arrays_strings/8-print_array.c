@@ -12,7 +12,7 @@
  */
 void print_array(int *a, int n)
 {
-  if (((int)Sizeof(a) / (int)Sizeof(a[0])) == n)
+if (((int) sizeof(a) / (int) sizeof(a[0])) == n)
 {
 int i;
 for (i = 0; i < n - 1; i++)
