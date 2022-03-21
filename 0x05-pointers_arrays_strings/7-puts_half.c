@@ -13,11 +13,9 @@ void puts2(char *s)
 {
 int size;
 int i;
-int j;
-char str[];
- size =(int) strlen(s)/2;
-j = 0;
- for (i = 0; i< =size; i++)
+size =(int) strlen(s)/2;
+char str[size];
+for (i = 0; i<= size; i++)
 {
 str[i]=s[i];
 }
