@@ -17,7 +17,7 @@ int j;
 char str;
 size=strlen(s);
 j=0;
-for (i = size - 1; i >j 0; i--)
+for (i = size - 1; i >j; i--)
 {
 str=s[j];
 s[j]=s[i];
