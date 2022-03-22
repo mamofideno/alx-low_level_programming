@@ -13,7 +13,7 @@ int _atoi(char *s)
   int i;
   int l;
   int count;
-  char numb[l];
+  char numb[100];
   int num;
   count = 0;
   l = strlen(s);
