@@ -15,9 +15,9 @@ int size;
 int l;
 int i;
 size = strlen(s);
-if (size % 2 == 0)
-l = size / 2;
-else
+/*if (size % 2 == 0)
+ l = size / 2;
+else*/
 l = (size - 1) / 2;
 if( l > 0)
 {
