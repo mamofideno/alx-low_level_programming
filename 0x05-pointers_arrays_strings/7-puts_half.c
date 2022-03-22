@@ -20,7 +20,7 @@ if( l > 0)
 {
 for (i = l; i < size; i++)
 {
-  printf("%c",s[i];
+printf("%c", s[i]);
 }
 }
 return;
