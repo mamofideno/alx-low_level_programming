@@ -42,3 +42,7 @@ void puts2(char *str);
 #define _PUTS_HALF_H
 void puts_half(char *str);
 #endif 
+#ifndef _PUTS2_H_
+#define _PUTS2_H_
+void puts2(char *str);
+#endif
