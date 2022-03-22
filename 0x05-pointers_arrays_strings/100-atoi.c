@@ -13,32 +13,28 @@ int _atoi(char *s)
   int i;
   int l;
   int count;
-  char numb[100];
+  char numb;
   int num;
   count = 0;
+  nu = 0;
   l = strlen(s);
   num = 1;
   for (i = 0; i < l; i++)
     {
       if((s[i] == '+' || s[i] == '-' ) && count == 0)
 	{
-	  numb[0] = s[i];
+	  numb = s[i];
 
 	}
       else if(s[i] >= '0' && s[i] <= '9')
 	{
-	  numb[num] = s[i];
 	  count ++;
-	  num ++;
+	  nu = nu *10 + s[i];
 	}
 
     }
   nu=0;
-  for(i = 1; i < count; i++)
-    {
-      nu = nu * 10 + numb[i] ;
-    }
-  if(numb[0] == '-')
-    nu = nu * -1;  
+  if(numb == '-')
+    nu = nu * -1;
   return (nu);
 }
