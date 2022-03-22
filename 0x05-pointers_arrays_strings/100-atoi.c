@@ -33,7 +33,7 @@ ss = ss + 1;
 }
 else if (s[i] >= '0' && s[i] <= '9')
 {
-count ++;
+count++;
 n = (int) s[i] - '0';
 nu = nu * 10 + n;
 }
