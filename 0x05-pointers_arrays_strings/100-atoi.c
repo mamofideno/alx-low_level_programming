@@ -17,7 +17,7 @@ int n;
 int count;
 char numb;
 int ss;
-ss = 0;
+ss = 1;
 count = 0;
 nu = 0;
 l = strlen(s);
@@ -25,6 +25,8 @@ for (i = 0; i < l; i++)
 {
 if ((s[i] == '+' || s[i] == '-') && count == 0)
 {
+if(s[i] == '-')
+ss = ss * -1;
 numb = s[i];
 }
 else if ((s[i] == '+' || s[i] == '-' || s[i] == ' ') && count > 0)
@@ -39,6 +41,6 @@ nu = nu * 10 + n;
 }
 }
 if (numb == '-')
-nu = nu * -1;
+nu = nu * ss;
 return (nu);
 }
