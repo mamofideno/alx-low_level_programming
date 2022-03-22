@@ -1,3 +1,7 @@
+#ifndef __PUTCHAR_H_
+#define __PUTCHAR_H_
+void _putchar(int);
+#endif
 #ifndef _RESET_TO_98_H_
 #define _RESET_TO_98_H_
 void reset_to_98(int *n);

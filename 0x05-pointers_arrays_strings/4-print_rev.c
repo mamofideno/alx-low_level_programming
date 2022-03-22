@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <string.h>
 #include "main.h"
-
 /**
  *print_rev - print the strings
  *
@@ -11,19 +10,11 @@
  */
 void print_rev(char *s)
 {
-int size;
+int l;
 int i;
-int j;
-char str;
-size = strlen(s);
-j = 0;
-for (i = size - 1; i >= j; i--)
-{
-str=s[j];
-s[j]=s[i];
-s[i]=str; 
-j++;
-}
-printf("%s\n", s);
+l=strlen(s);
+for(i=0;i<l+1;i++)
+printf("%c",s[l-i]);
+printf("\n");
 return;
 }
