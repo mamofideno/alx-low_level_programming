@@ -13,15 +13,15 @@ void print_rev(char *s)
 int l;
 int i;
 l = strlen(s);
-if(l > 0)
+if (l > 0)
 {
-for (i = 0; i < l + 1; i++)
+for (i = 1; i < l + 1; i++)
 printf("%c", s[l - i]);
 printf("\n");
 }
 else
 {
 printf("\n");
-} 
+}
 return;
 }
