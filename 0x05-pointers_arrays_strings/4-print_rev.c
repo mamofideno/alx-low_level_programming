@@ -12,9 +12,14 @@ void print_rev(char *s)
 {
 int l;
 int i;
-l=strlen(s);
-for(i=0;i<l+1;i++)
-printf("%c",s[l-i]);
+l = strlen(s);
+if(l > 0){
+for (i = 0;i < l + 1; i++)
+printf("%c", s[l-i]);
+}
+else
+{
 printf("\n");
+} 
 return;
 }
