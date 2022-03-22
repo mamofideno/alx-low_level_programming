@@ -15,17 +15,14 @@ int size;
 int l;
 int i;
 size = strlen(s);
-/*if (size % 2 == 0)
- l = size / 2;
-else*/
 l = (size - 1) / 2;
-if( l > 0)
+if (l > 0)
 {
 for (i = l+1; i < size; i++)
 {
 printf("%c", s[i]);
 }
-printf("\n"); 
+printf("\n");
 }
 else
 printf("\n");
