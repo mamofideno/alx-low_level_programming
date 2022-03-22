@@ -16,8 +16,8 @@ int l;
 int n;
 int count;
 char numb;
-int s;
-s = 0;
+int ss;
+ss = 0;
 count = 0;
 nu = 0;
 l = strlen(s);
@@ -29,7 +29,7 @@ numb = s[i];
 }
 else if ((s[i] == '+' || s[i] == '-' || s[i] == ' ') && count > 0)
 {
-s = s+1;
+ss = ss+1;
 }
 else if (s[i] >= '0' && s[i] <= '9')
 {
