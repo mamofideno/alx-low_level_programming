@@ -12,6 +12,7 @@ int _atoi(char *s)
   int nu;
   int i;
   int l;
+  int n;
   int count;
   char numb;
   count = 0;
@@ -27,7 +28,8 @@ int _atoi(char *s)
       else if(s[i] >= '0' && s[i] <= '9')
 	{
 	  count ++;
-	  nu = nu *10 + s[i];
+	  n = s[i];
+	  nu = nu * 10 + n;
 	}
 
     }
