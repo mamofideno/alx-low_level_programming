@@ -14,7 +14,6 @@ int _atoi(char *s)
   int l;
   int count;
   char numb;
-  int num;
   count = 0;
   nu = 0;
   l = strlen(s);
