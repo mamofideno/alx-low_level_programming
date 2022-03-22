@@ -23,13 +23,13 @@ nu = 0;
 l = strlen(s);
 for (i = 0; i < l; i++)
 {
-if ((s[i] == '+' || s[i] == '-' ) && count == 0)
+if ((s[i] == '+' || s[i] == '-') && count == 0)
 {
 numb = s[i];
 }
 else if ((s[i] == '+' || s[i] == '-' || s[i] == ' ') && count > 0)
 {
-ss = ss+1;
+ss = ss + 1;
 }
 else if (s[i] >= '0' && s[i] <= '9')
 {
