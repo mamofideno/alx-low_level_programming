@@ -1,5 +1,6 @@
 #include "main.h"
 #include <string.h>
+#include <stdio.h>
 /**
   *_atoi- convert string to numner
   *
@@ -9,32 +10,29 @@
   */
 int _atoi(char *s)
 {
-  int nu;
-  int i;
-  int l;
-  int n;
-  int count;
-  char numb;
-  count = 0;
-  nu = 0;
-  l = strlen(s);
-  for (i = 0; i < l; i++)
-    {
-      if((s[i] == '+' || s[i] == '-' ) && count == 0)
-	{
-	  numb = s[i];
-
-	}
-      else if(s[i] >= '0' && s[i] <= '9')
-	{
-	  count ++;
-	  n = s[i];
-	  nu = nu * 10 + n;
-	}
-
-    }
-  nu=0;
-  if(numb == '-')
-    nu = nu * -1;
-  return (nu);
+int nu;
+int i;
+int l;
+int n;
+int count;
+char numb;
+count = 0;
+nu = 0;
+l = strlen(s);
+for (i = 0; i < l; i++)
+{
+if((s[i] == '+' || s[i] == '-' ) && count == 0)
+{
+numb = s[i];
+}
+else if(s[i] >= '0' && s[i] <= '9')
+{
+count ++;
+n =(int) s[i] - '0';
+nu = nu * 10 + n;
+}
+}
+if(numb == '-')
+nu = nu * -1;
+return (nu);
 }
