@@ -25,7 +25,7 @@ for (i = 0; i < l; i++)
 {
 if ((s[i] == '+' || s[i] == '-') && count == 0)
 {
-if(s[i] == '-')
+if (s[i] == '-')
 ss = ss * -1;
 numb = s[i];
 }
