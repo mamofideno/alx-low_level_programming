@@ -2,13 +2,13 @@
 #include <string.h>
 #include "main.h"
 /**
- *puts_half - print the strings
+ *rev_string - print the strings
  *
  *@s: char to be printed
  *
  *Return: return void
  */
-void puts_half(char *s)
+void rev_string(char *s)
 {
 int l;
 int i;
