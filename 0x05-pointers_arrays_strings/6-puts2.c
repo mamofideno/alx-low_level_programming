@@ -16,7 +16,7 @@ int i;
 size = strlen(s);
 if (size > 0)
 {
-for (i = 0; i < size; i = i+ 2)
+for (i = 0; i < size; i = i + 2)
 {
 printf("%c", s[i]);
 }
