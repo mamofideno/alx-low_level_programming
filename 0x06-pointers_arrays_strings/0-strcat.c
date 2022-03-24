@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  *_strcat - string concat
- *@dest: destination 
+ *@dest: destination
  *@src: source
  *Return: return character
  */
