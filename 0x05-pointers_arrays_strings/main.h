@@ -46,3 +46,7 @@ void puts_half(char *str);
 #define _PUTS2_H_
 void puts2(char *str);
 #endif
+#ifndef __ATOI_H_
+#define __ATOI_H_
+int _atoi(char *s);
+#endif
