@@ -10,3 +10,7 @@ char *_strncat(char *dest, char *src, int n);
 #define __STRNCPY_H_
 char *_strncpy(char *dest, char *src, int n);
 #endif
+#ifndef _CAP_STRING_H_
+#define _CAP_STRING_H_
+char *cap_string(char *);
+#endif 
