@@ -14,3 +14,7 @@ char *_strncpy(char *dest, char *src, int n);
 #define _CAP_STRING_H_
 char *cap_string(char *);
 #endif 
+#ifndef _STRING_TOUPPER_H_
+#define _STRING_TOUPPER_H_
+char *string_toupper(char *);
+#endif 
