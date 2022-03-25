@@ -1,7 +1,7 @@
 #include <string.h>
 #include "main.h"
 /**
- * _strcat - string concat
+ * _strncat - string concat
  *@dest: destination
  *
  *@src: source
