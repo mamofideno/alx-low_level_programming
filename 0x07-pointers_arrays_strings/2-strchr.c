@@ -13,8 +13,8 @@ int n;
 n = strlen(s); 
 for (i = 0; i < n; i++)
 {
-if(s[i] == c)
-return (&s[i]);
+if (s[i] == c)
+return ( &s[i] );
 }
 return (NULL);
 }
