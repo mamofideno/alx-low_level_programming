@@ -14,3 +14,7 @@ char *_strchr(char *s, char c);
 #define __STRSPN_H_
 unsigned int _strspn(char *s, char *accept);
 #endif
+#ifndef __STRPBRK_H_
+#define __STRPBRK_H_
+char *_strpbrk(char *s, char *accept);
+#endif
