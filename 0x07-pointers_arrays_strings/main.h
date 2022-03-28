@@ -18,3 +18,7 @@ unsigned int _strspn(char *s, char *accept);
 #define __STRPBRK_H_
 char *_strpbrk(char *s, char *accept);
 #endif
+#ifndef __STRSTR_H_
+#define __STRSTR_H_
+char *_strstr(char *haystack, char *needle);
+#endif
