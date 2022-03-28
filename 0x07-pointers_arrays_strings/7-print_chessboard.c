@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  *print_chessboard - initilize arra
@@ -18,6 +19,7 @@ while( c < 8 )
 {
 aa=a[i][c];
 putchar(aa);
+c++;
 }
 putchar('\n');
 }
