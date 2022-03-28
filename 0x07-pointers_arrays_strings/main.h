@@ -1,3 +1,7 @@
+#ifndef _PUTCHAR_H_
+#define _PUTCHAR_H_
+void putchar(int);
+#endif
 #ifndef __MEMSET_H_
 #define __MEMSET_H_
 char *_memset(char *s, char b, unsigned int n);
@@ -21,4 +25,8 @@ char *_strpbrk(char *s, char *accept);
 #ifndef __STRSTR_H_
 #define __STRSTR_H_
 char *_strstr(char *haystack, char *needle);
+#endif
+#ifndef _PRINT_CHESSBOARD_H_
+#define _PRINT_CHESSBOARD_H_
+void print_chessboard(char (*a)[8]);
 #endif
