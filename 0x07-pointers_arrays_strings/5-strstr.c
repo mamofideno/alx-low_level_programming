@@ -9,9 +9,9 @@
  */
 char *_strstr(char *haystack, char *needle)
 {
-int i;
-int n;
-int c;
+unsigned int i;
+unsigned int n;
+unsigned int c;
 n = strlen(haystack);
 for(i = 0; i < n; i++)
 {
@@ -22,11 +22,12 @@ while(  (needle[c] == haystack[i+c]) && (c < strlen(needle) ) )
 c++;
 }
 if(c == strlen(needle))
+{
 return (&haystack[i]);
+}
 else
 {
 c = 0;
-}
 }
 }
 return (NULL);
