@@ -26,3 +26,7 @@ char *_strstr(char *haystack, char *needle);
 #define _PRINT_CHESSBOARD_H_
 void print_chessboard(char (*a)[8]);
 #endif
+#ifndef _PRINT_DIAGSUMS_H_
+#define _PRINT_DIAGSUMS_H_
+void print_diagsums(int *a, int size);
+#endif 
