@@ -7,7 +7,7 @@
  */
 void _puts_recursion(char *s)
 {
-put(s[0]);
+puts(s[0]);
 if( strlen(s) > 1)
 {
 _puts_recursion(&s[1]);    
