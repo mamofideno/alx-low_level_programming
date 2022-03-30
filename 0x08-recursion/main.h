@@ -6,3 +6,7 @@ void _puts_recursion(char *s);
 #define _PRIINT_REV_RECURSION_H_
 void _print_rev_recursion(char *s);
 #endif
+#ifndef __POW_RECURSION_H_
+#define __POW_RECURSION_H_
+int _pow_recursion(int x, int y);
+#endif
