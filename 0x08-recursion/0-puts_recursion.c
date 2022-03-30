@@ -7,9 +7,5 @@
  */
 void _puts_recursion(char *s)
 {
-puts((int)s[0]);
-if( strlen(s) > 1)
-{
-_puts_recursion(&s[1]);    
-}
+printf("%s\n",s);
 }
