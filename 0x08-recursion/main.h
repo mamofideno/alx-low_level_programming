@@ -10,3 +10,7 @@ void _print_rev_recursion(char *s);
 #define __POW_RECURSION_H_
 int _pow_recursion(int x, int y);
 #endif
+#ifndef _FACTORIAL_H_
+#define _FACTORIAL_H_
+int factorial(int n);
+#endif 
