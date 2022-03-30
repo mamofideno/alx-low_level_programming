@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- *_pow_recursion - power by recusion 
+ *_pow_recursion - power by recusion
+ *
  *@x: the base
  *@y: the power
  *Return: power of number int
