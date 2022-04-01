@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 /**
   *main- tthe main 
   *@argc: count argument
@@ -7,6 +8,9 @@
   */
 int main(int argc, char *argv[])
 {
-  printf("%d\n", argc);
+int s;
+s = strlen(argv[0]);
+s = argc;
+printf("%d\n", s);
 return (0);
 }
