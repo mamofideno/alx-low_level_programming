@@ -18,6 +18,6 @@ return (1);
 }
 n = atoi(argv[1]);
 n2 = atoi(argv[2]);
-printf("%i\n", n * n2);
+printf(" %i\n ", (n * n2));
 return (0);
 }
