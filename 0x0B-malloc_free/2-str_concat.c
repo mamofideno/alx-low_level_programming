@@ -12,8 +12,9 @@ char *s;
 unsigned int i;
 unsigned int l;
 unsigned int l2;
-s = malloc(sizeof(s1) + sizeof(s2)); 
-s = strcat(s1 , s2);
+unsined int tot;
+tot = sizeof(s1) + sizeof(s2);
+s = malloc(tot); 
 if (s == NULL)
 return (NULL);
 l = sizeof(s1);
