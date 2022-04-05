@@ -3,7 +3,7 @@
   *create_array - create array of char
   *@size: size of array
   *@c: character
-  *Return: return value 
+  *Return: return value
   */
 char *create_array(unsigned int size, char c)
 {
@@ -13,7 +13,7 @@ if (size == 0)
 return (NULL);
 arr = malloc(sizeof(char) * size);
 if (arr == NULL)
-return (NULL);   
+return (NULL); 
 for (i = 0; i < size; i++)
 arr[i] = c;
 return (arr);
