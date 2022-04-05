@@ -20,9 +20,9 @@ if (s == NULL)
 return (NULL);
 l = sizeof(s1);
 l2 = sizeof(s2);
-for(i = 0; i < l; i++)
+for (i = 0; i < l - 2 ; i++)
 s[i] = s1[i];
-for(j = 0; j < l2; j++)
-s[j + l - 1] = s2[j];
+for (j = 0; j < l2; j++)
+s[j + l - 2] = s2[j];
 return (s);
 }
