@@ -12,7 +12,7 @@ char *s;
 unsigned int i;
 unsigned int l;
 unsigned int l2;
-unsined int tot;
+unsigned int tot;
 tot = sizeof(s1) + sizeof(s2);
 s = malloc(tot); 
 if (s == NULL)
