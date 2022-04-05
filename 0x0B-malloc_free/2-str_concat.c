@@ -14,7 +14,7 @@ unsigned int i;
 unsigned int l;
 unsigned int l2;
 unsigned int tot;
-tot = sizeof(s1) + sizeof(s2);
+tot = sizeof(s1) + sizeof(s2) - 2;
 s = malloc(tot); 
 if (s == NULL)
 return (NULL);
@@ -23,6 +23,6 @@ l2 = sizeof(s2);
 for(i = 0; i < l; i++)
 s[i] = s1[i];
 for(j = 0; j < l2; j++)
-s[j + l] = s2[j];
+s[j + l - 1] = s2[j];
 return (s);
 }
