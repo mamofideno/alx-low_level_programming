@@ -2,6 +2,7 @@
 /**
   *create_array - create array of char
   *@size: size of array
+  *
   *@c: character
   *Return: return value
   */
