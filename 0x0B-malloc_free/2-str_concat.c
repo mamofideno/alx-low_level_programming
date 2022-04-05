@@ -7,5 +7,9 @@
  */
 char *str_concat(char *s1, char *s2)
 {
-return (strcat(s1 ,s2));
+char *s;
+s = strcat(s1 , s2);
+if (s == NULL)
+return (NULL);
+return (s);
 }
