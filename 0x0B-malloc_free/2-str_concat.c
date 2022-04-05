@@ -14,7 +14,7 @@ unsigned int i;
 unsigned int l;
 unsigned int l2;
 unsigned int tot;
-tot = sizeof(s1) + sizeof(s2) - 2;
+tot = sizeof(s1) + sizeof(s2) - 4;
 s = malloc(tot); 
 if (s == NULL)
 return (NULL);
