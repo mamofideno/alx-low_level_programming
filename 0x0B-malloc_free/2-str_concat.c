@@ -9,7 +9,7 @@
 char *str_concat(char *s1, char *s2)
 {
 char *s;
-int i;
+unsigned int i;
 s = malloc(sizeof(s1) + sizeof(s2)); 
 s = strcat(s1 , s2);
 if (s == NULL)
