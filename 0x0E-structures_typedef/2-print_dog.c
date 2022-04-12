@@ -1,5 +1,17 @@
 #include <stdio.h>
 /**
+ *struct dog - struiuct
+ *@name: name
+ *@age: age 
+ *@owner: own
+ */
+struct dog
+{
+char *name;
+int age;
+char *owner;
+};
+/**
  *print_dog - print dog structure
  *@dog: dog st
  *Retun: void
