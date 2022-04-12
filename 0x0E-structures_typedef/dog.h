@@ -13,3 +13,7 @@ float age;
 char *owner;
 };
 #endif
+#ifndef _PRINT_DOG_H_
+#define _PRINT_DOG_H_
+void print_dog(struct dog *d);
+#endif

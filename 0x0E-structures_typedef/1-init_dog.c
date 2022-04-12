@@ -1,4 +1,10 @@
 /**
+ *struct dog - struct
+ *@name: name
+ *@age: age
+ *@owner: owner
+ */
+/**
  *init_dog - initailize dog
  *@d: pointer to dog
  *@name: dog name

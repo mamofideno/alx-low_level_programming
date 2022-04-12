@@ -13,12 +13,12 @@ char *owner;
 };
 /**
  *print_dog - print dog structure
- *@dog: dog st
+ *@dog: d st
  *Retun: void
  */
 void print_dog(struct dog *d)
 {
-printf("Name: %s\n",dog->name);
-printf("Age: %f\n",dog->age);
-printf("Owner: %s",dog->owner);
+printf("Name: %s\n",d->name);
+printf("Age: %i\n",d->age);
+printf("Owner: %s",d->owner);
 }
