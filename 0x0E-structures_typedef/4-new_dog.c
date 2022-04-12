@@ -1,6 +1,6 @@
 #include "dog.h"
 /**
- *new_dog-create dof 
+77;30502;0c *new_dog-create dof 
  *@name: name
  *@age : age
  *@owner: onwer
@@ -12,5 +12,5 @@ dog_t dg;
 dg.name = name;
 dg.age = age;
 dg.owner = owner;
-return (dg);
+return (&dg);
 }
