@@ -17,3 +17,7 @@ char *owner;
 #define _PRINT_DOG_H_
 void print_dog(struct dog *d);
 #endif
+#ifndef _DOG_T_H_
+#define _DOG_T_H_
+typedef struct dog dog_t;
+#endif
