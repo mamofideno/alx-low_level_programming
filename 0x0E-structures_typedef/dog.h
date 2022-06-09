@@ -21,3 +21,7 @@ void print_dog(struct dog *d);
 #define _DOG_T_H_
 typedef struct dog dog_t;
 #endif
+#ifndef _NEW_DOG_H_
+#define _NEW_DOG_H_
+dog_t *new_dog(char *name, float age, char *owner);
+#endif
